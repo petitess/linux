@@ -1,0 +1,40 @@
+https://github.com/cilynx/rtl88x2bu
+https://askubuntu.com/questions/1256006/tp-link-archer-t3u-plus-usb-adapter
+
+# Update all packages per normal
+sudo apt update
+sudo apt upgrade
+
+# Reboot just in case there were any kernel updates
+sudo reboot
+
+# Install prereqs
+sudo apt update
+sudo apt install dnsmasq hostapd bc build-essential 
+sudo apt install git
+sudo apt install dkms
+sudo apt install make
+
+# Pull down the driver source
+git clone https://github.com/cilynx/rtl88x2bu
+cd rtl88x2bu/
+
+# Configure for RasPi
+sudo sed -i 's/I386_PC = y/I386_PC = n/' Makefile
+sudo sed -i 's/ARM_RPI = n/ARM_RPI = y/' Makefile
+
+# DKMS as above
+VER=$(sed -n 's/\PACKAGE_VERSION="\(.*\)"/\1/p' dkms.conf)
+sudo rsync -rvhP ./ /usr/src/rtl88x2bu-${VER}
+sudo dkms add -m rtl88x2bu -v ${VER}
+sudo dkms build -m rtl88x2bu -v ${VER} # Takes ~3-minutes on a 3B+
+sudo dkms install -m rtl88x2bu -v ${VER}
+
+# Activate the driver
+cd ..
+wget https://github.com/RinCat/RTL88x2BU-Linux-Driver/archive/master.zip
+unzip master.zip
+cd RTL88x2BU-Linux-Driver-master
+make
+sudo make install
+sudo modprobe 88x2bu
