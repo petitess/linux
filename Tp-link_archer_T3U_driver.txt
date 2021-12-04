@@ -1,5 +1,5 @@
-https://github.com/cilynx/rtl88x2bu
-https://askubuntu.com/questions/1256006/tp-link-archer-t3u-plus-usb-adapter
+#https://github.com/cilynx/rtl88x2bu
+#https://askubuntu.com/questions/1256006/tp-link-archer-t3u-plus-usb-adapter
 
 # Update all packages per normal
 sudo apt update
