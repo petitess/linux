@@ -1,18 +1,16 @@
 # Configuration for raspberry pi with ubuntu budgie 
-
-1. sudo apt-get install xrdp
+1. RDP
+sudo apt-get install xrdp
 
 sudo gedit /etc/xrdp/startwm.sh
 
-2. Add /usr/bin/budgie-desktop to the end of the line that starts with test -x. The finished line should match the following:
+Add /usr/bin/budgie-desktop to the end of the line that starts with test -x. The finished line should match the following:
 
 test -x /etc/X11/Xsession && exec /etc/X11/Xsession /usr/bin/budgie-desktop
 
-3. Create a new user for rdp manually:
+2. Create a new user for rdp manually:
 
 sudo passwd username
-
-sudo usermod -a -G sudo username
 
 4. WIFI issue: create a pkla file under /etc/polkit-1/localauthority/50-local-d
 
