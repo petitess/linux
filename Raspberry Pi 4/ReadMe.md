@@ -36,16 +36,6 @@ id username
 
 usermod -a -G examplegroup exampleusername
 
-sudo apt-get install samba
-
-smbpasswd -a user_name
-
-Add samba account and password:
-
-sudo smbpasswd -a user_name_here
-
-sudo service smbd restart
-
 Enable root login GUI:
 
 sudo passwd root
@@ -91,6 +81,50 @@ sudo arp-scan 192.168.1.1-192.168.1.254 #Scans the obvious range
 10. sudo apt-get install gnome-disk-utility
 11. https://pkgs.org/download/unrar
 12. https://osdn.net/dl/peazip/pea-gtk2-arm.tar.gz (portable)
+
+# Install samba - file sharing
+
+sudo apt-get install samba
+
+sudo smbpasswd -a user_name_here
+
+sudo service smbd restart
+
+[SSD]
+
+comment = Big Folder
+
+path = /home/STORAGE
+
+guest ok = yes
+
+browseable = yes
+
+read only= no
+
+#create mask = 0600
+
+#directory mask = 0700
+
+force user=sek
+
+[Downloads]
+
+comment = Big Folder
+
+path = /home/Downloads
+
+guest ok = yes
+
+browseable = yes
+
+read only= no
+
+#create mask = 0600
+
+#directory mask = 0700
+
+force user=sek
 
 # Overclock
 
