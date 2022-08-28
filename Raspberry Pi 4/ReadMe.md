@@ -31,7 +31,9 @@ RESTART THE SYSTEM
 # Commands
 
 groups user_name
+
 id sek
+
 usermod -a -G examplegroup exampleusername
 --------------
 sudo apt-get install caja-share
