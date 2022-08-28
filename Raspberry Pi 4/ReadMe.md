@@ -85,7 +85,6 @@ https://osdn.net/dl/peazip/pea-gtk2-arm.tar.gz (portable)
  ```
 ```
 [SSD]
-
 comment = Big Folder
 path = /home/STORAGE
 guest ok = yes
@@ -112,8 +111,6 @@ over_voltage=4
 arm_freq=2140
 gpu_freq=650
 ```
-WORKS:
-
 Overclock Raspberry Pi 2.35ghz
 ```
 over_voltage=14
