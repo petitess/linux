@@ -79,9 +79,9 @@ sudo arp-scan 192.168.1.1-192.168.1.254 #Scans the obvious range
 
 -----Commands------
 
-1. sudo nautilus - opens folder as root
-2. sudo pcmanfm - opens folder as root
-3. sudo apt-get install synaptic
+1.sudo nautilus - opens folder as root
+2.sudo pcmanfm - opens folder as root
+3.sudo apt-get install synaptic
 4.cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
 5.watch -n 2 "vcgencmd measure_temp"
 6.sudo arp-scan -l
@@ -89,8 +89,8 @@ sudo arp-scan 192.168.1.1-192.168.1.254 #Scans the obvious range
 8.sudo leafpad /boot/config.txt
 9.sudo apt-get install midori
 10.sudo apt-get install gnome-disk-utility
-11. https://pkgs.org/download/unrar
-12. https://osdn.net/dl/peazip/pea-gtk2-arm.tar.gz (portable)
+11.https://pkgs.org/download/unrar
+12.https://osdn.net/dl/peazip/pea-gtk2-arm.tar.gz (portable)
 
 # Overclock
 
