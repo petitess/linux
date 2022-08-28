@@ -1,4 +1,4 @@
-# Configuration for raspberry pi with ubuntu budgie 
+# Configuration for raspberry pi 4 with ubuntu budgie 
 1. RDP
 ```
 sudo apt-get install xrdp
@@ -59,16 +59,17 @@ sudo arp-scan -l #Scans the local network
 sudo arp-scan 192.168.1.0/24 #Scans 192.168.1.0 255.255.255.0
 sudo arp-scan 192.168.1.1-192.168.1.254 #Scans the obvious range
 ```
------Commands------
 ```
 sudo nautilus - opens folder as root
 sudo pcmanfm - opens folder as root
+```
+```
 sudo apt-get install synaptic
 cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
 watch -n 2 "vcgencmd measure_temp"
-sudo arp-scan -l
-sudo pcmanfm
 sudo leafpad /boot/config.txt
+```
+```
 sudo apt-get install midori
 sudo apt-get install gnome-disk-utility
 ```
