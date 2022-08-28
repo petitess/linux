@@ -32,48 +32,53 @@ RESTART THE SYSTEM
 
 groups user_name
 
-id sek
+id username
 
 usermod -a -G examplegroup exampleusername
---------------
-sudo apt-get install caja-share
-killall caja
-caja
+
 sudo apt-get install samba
+
 smbpasswd -a user_name
-----------------------------
-Add samba account and password
+
+Add samba account and password:
+
 sudo smbpasswd -a user_name_here
+
 sudo service smbd restart
--------------------------
-Enable root login GUI
+
+Enable root login GUI:
+
 sudo passwd root
+
 sudo passwd -u root
-----------------------
-Windows based remote desktop
-sudo apt-get install xrdp
-----------------------
-temp
+
+temp:
+
 vcgencmd measure_temp
+
 watch -n 2 "vcgencmd measure_temp"
-----------------------
-change screen res for teamviewer
+
+change screen res for teamviewer:
+
 # uncomment to force a console size. By default it will be display's size minus
+
 # overscan.
+
 framebuffer_width=1440
+
 framebuffer_height=900
---------------------
-network scanner
+
+network scanner:
 sudo apt-get install arp-scan
+
 sudo arp-scan -l #Scans the local network
+
 sudo arp-scan 192.168.1.0/24 #Scans 192.168.1.0 255.255.255.0
+
 sudo arp-scan 192.168.1.1-192.168.1.254 #Scans the obvious range
---------------------------
---------------------
-1. Install Ubuntu Server 64-bit for Raspberry Pi 4
-2. sudo apt-get install ubuntu-desktop
-3. Teamviewer just for 32-bit
+
 -----Commands------
+
 1. sudo nautilus - opens folder as root
 2. sudo pcmanfm - opens folder as root
 3. sudo apt-get install synaptic
@@ -86,7 +91,6 @@ sudo arp-scan 192.168.1.1-192.168.1.254 #Scans the obvious range
 10.sudo apt-get install gnome-disk-utility
 11. https://pkgs.org/download/unrar
 12. https://osdn.net/dl/peazip/pea-gtk2-arm.tar.gz (portable)
-
 
 # Overclock
 
