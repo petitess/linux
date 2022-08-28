@@ -60,9 +60,9 @@ watch -n 2 "vcgencmd measure_temp"
 
 change screen res for teamviewer:
 
-# uncomment to force a console size. By default it will be display's size minus
+#uncomment to force a console size. By default it will be display's size minus
 
-# overscan.
+#overscan.
 
 framebuffer_width=1440
 
