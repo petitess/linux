@@ -1,4 +1,4 @@
-#Configuration for raspberry pi with ubuntu budgie 
+##Configuration for raspberry pi with ubuntu budgie 
 
 1. sudo apt-get install xrdp
 
@@ -29,7 +29,7 @@ ResultActive=yes
 
 RESTART THE SYSTEM
 
-#Commands
+##Commands
 
 groups user_name
 id sek
@@ -87,7 +87,7 @@ sudo arp-scan 192.168.1.1-192.168.1.254 #Scans the obvious range
 12. https://osdn.net/dl/peazip/pea-gtk2-arm.tar.gz (portable)
 
 
-#Overclock
+##Overclock
 
 cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
 
