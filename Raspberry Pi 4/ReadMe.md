@@ -83,12 +83,9 @@ sudo arp-scan 192.168.1.1-192.168.1.254 #Scans the obvious range
 12. https://osdn.net/dl/peazip/pea-gtk2-arm.tar.gz (portable)
 
 # Install samba - file sharing
-
-sudo apt-get install samba
-
-sudo smbpasswd -a user_name_here
-
-sudo service smbd restart
+-sudo apt-get install samba
+-sudo smbpasswd -a user_name_here
+-sudo service smbd restart
 
 [SSD]
 
@@ -107,7 +104,9 @@ force user=sek
 [Downloads]
 
 comment = Big Folder
+
 path = /home/Downloads
+
 guest ok = yes
 
 browseable = yes
