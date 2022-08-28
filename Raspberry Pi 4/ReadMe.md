@@ -102,27 +102,17 @@ browseable = yes
 
 read only= no
 
-#create mask = 0600
-
-#directory mask = 0700
-
 force user=sek
 
 [Downloads]
 
 comment = Big Folder
-
 path = /home/Downloads
-
 guest ok = yes
 
 browseable = yes
 
 read only= no
-
-#create mask = 0600
-
-#directory mask = 0700
 
 force user=sek
 
