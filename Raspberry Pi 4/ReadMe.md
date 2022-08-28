@@ -1,5 +1,6 @@
 # Configuration for raspberry pi with ubuntu budgie 
 1. RDP
+
 sudo apt-get install xrdp
 
 sudo gedit /etc/xrdp/startwm.sh
