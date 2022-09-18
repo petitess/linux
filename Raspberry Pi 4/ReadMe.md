@@ -71,6 +71,7 @@ sudo leafpad /boot/config.txt
 ```
 ```
 sudo apt-get install midori
+sudo apt-get install epiphany-browser
 sudo apt-get install gnome-disk-utility
 ```
 https://pkgs.org/download/unrar
