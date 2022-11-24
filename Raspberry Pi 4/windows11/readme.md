@@ -1,6 +1,6 @@
-$\textcolor{darkred}{\text{Install Windows 11 on a Raspberry Pi 4}}$
+$\textcolor{red}{\text{Install Windows 11 on a Raspberry Pi 4}}$
 ========================================
-$\textcolor{#f03c15}{\text{Windows}}$
+$\textcolor{#c5f015}{\text{Windows}}$
 -----
 ### Go to https://uupdump.net and search for windows 11 arm64
 <img src="./pics/1.jpg"/>
