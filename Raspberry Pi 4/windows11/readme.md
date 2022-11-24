@@ -19,3 +19,9 @@ $\textcolor{#c5f015}{\text{Windows}}$
 
 ### Install. It takes around an hour.
 <img src="./pics/6.jpg"/>
+
+## $\textcolor{#c5f015}{\text{Bypass internet connection}}$
+
+Shift + F10 
+
+OOBE\BYPASSNRO
