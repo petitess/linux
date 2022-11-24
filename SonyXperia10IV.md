@@ -9,3 +9,5 @@ https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-%2
 https://nikgapps.com/downloads
 
 https://sourceforge.net/projects/nikgapps/files/
+
+https://twrpupdate.com/how-to-install-custom-rom-on-sony-xperia-10-iv/
