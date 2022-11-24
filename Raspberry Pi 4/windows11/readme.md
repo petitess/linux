@@ -13,7 +13,7 @@ $\textcolor{#c5f015}{\text{Windows}}$
 
 <img src="./pics/3.jpg"/>
 
-### Download WOR https://www.worproject.com/downloads
+### Download WOR https://www.worproject.com/downloads and prepare USB
 
 <img src="./pics/4.jpg"/>
 
