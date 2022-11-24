@@ -1,4 +1,5 @@
-# Configuration for raspberry pi 4 with ubuntu budgie 
+# $\textcolor{lightgreen}{\text{Configuration for raspberry pi 4 with ubuntu budgie }}$
+
 1. RDP
 ```
 sudo apt-get install xrdp
