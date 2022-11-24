@@ -2,7 +2,7 @@ $\textcolor{red}{\text{Install Windows 11 on a Raspberry Pi 4}}$
 ========================================
 $\textcolor{#c5f015}{\text{Windows}}$
 -----
-### Go to https://uupdump.net and search for windows 11 arm64
+### Go to https://uupdump.net and search for Windows 11, version 22H2 arm64
 <img src="./pics/1.jpg"/>
 
 ### Download the image
