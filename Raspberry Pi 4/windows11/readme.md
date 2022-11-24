@@ -6,19 +6,16 @@ $\textcolor{#c5f015}{\text{Windows}}$
 <img src="./pics/1.jpg"/>
 
 ### Download the image
-
 <img src="./pics/2.jpg"/>
 
-### Run the script. It will take around an hour.
-
+### Run the script. It takes around an hour.
 <img src="./pics/3.jpg"/>
 
 ### Download WOR https://www.worproject.com/downloads and prepare USB
-
 <img src="./pics/4.jpg"/>
 
 
 <img src="./pics/5.jpg"/>
 
-
+### Install. It takes around an hour.
 <img src="./pics/6.jpg"/>
