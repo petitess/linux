@@ -9,7 +9,7 @@ $\textcolor{#c5f015}{\text{Windows}}$
 
 <img src="./pics/2.jpg"/>
 
-### Run the script. It will take a while
+### Run the script. It will take around an hour.
 
 <img src="./pics/3.jpg"/>
 
