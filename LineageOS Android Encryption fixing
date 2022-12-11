@@ -1,0 +1,24 @@
+# DON'T ENCRYPT YOUR PHONE WITH ANY LOCK PATTERN SET (e.g. PIN) BEFORE YOU FOLLOW THIS GUIDE
+# Enter terminal (Example TWRP -> Advanced -> Terminal) and type:
+df
+# df output example:
+# Filesystem 1K-blocks Used Available Use% Mounted on
+# /dev/block/mmcblk0p12 12324784 546144 60353600 4% /data
+# From the above output, we have to remember the mmcblk block and partition numbers (/dev/block/mmcblk0p12).
+# Also need to remember 1K-blocks value amount (12324784)
+
+# Now umount /data in TWRP. For this, go to Mount > deselect Data
+# Repair filesystem in TWRP terminal:
+e2fsck -y -f /dev/block/mmcblk0p12
+
+# Now will shrink partition size by 16K
+# For this you'll need to calculate whole partition size from above df output
+# For the example above we have 12324784. So 12324784 - 16 we have 12324768
+resize2fs /dev/block/mmcblk0p12 12324768K
+
+# Now android LineageOS is ready for encryption
+###### Advanced TIPs ######
+# To get the size of the partition block you can:
+tune2fs -l /dev/block/mmcblk0p12 | grep "Block count"
+# Output:
+# Block count: 12324784
