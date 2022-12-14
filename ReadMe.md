@@ -16,3 +16,4 @@ fastboot flash system system.img
 fastboot reboot
 
 ```
+https://www.android-x86.org
