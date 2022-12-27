@@ -1,3 +1,7 @@
+#### HTTP request
+```
+curl localhost -usebasicparsing
+```
 #### Fastboot 
 
 check which architecture your device has
