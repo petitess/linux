@@ -1,6 +1,6 @@
-$\textcolor{red}{\text{Install Windows 11 on a Raspberry Pi 4}}$
-========================================
-$\textcolor{#c5f015}{\text{Windows}}$
+## Install Windows 11 on a Raspberry Pi 4
+
+### Windows
 -----
 ### Go to https://uupdump.net and search for Windows 11, version 22H2 arm64
 <img src="./pics/1.jpg"/>
@@ -20,7 +20,7 @@ $\textcolor{#c5f015}{\text{Windows}}$
 ### Install. It takes around an hour.
 <img src="./pics/6.jpg"/>
 
-## $\textcolor{#c5f015}{\text{Bypass internet connection}}$
+## Bypass internet connection
 
 Shift + F10 
 
