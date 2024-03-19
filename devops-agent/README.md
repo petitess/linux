@@ -1,4 +1,4 @@
-#### Download
+#### Download (get the latest version from devops portal)
 ```
 sudo curl -O https://vstsagentpackage.azureedge.net/agent/3.234.0/vsts-agent-linux-x64-3.234.0.tar.gz
 ```
