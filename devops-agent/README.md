@@ -5,6 +5,8 @@ sudo curl -O https://vstsagentpackage.azureedge.net/agent/3.234.0/vsts-agent-lin
 #### Unpack
 ```
 sudo mkdir devopsagent
+sudo chown -R azadmin devopsagent
+sudo chmod -R u+rX devopsagent
 cd devopsagent
 sudo tar zxvf ../vsts-agent-linux-x64-3.234.0.tar.gz
 ```
