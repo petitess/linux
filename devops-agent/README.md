@@ -24,3 +24,18 @@ sudo ./svc.sh start
 ```
 ./config.sh remove --unattended --url https://dev.azure.com/ssgse --auth pat --token 7msuypoeawbuelz
 ```
+# Summery
+PIM: Owner & Application Admin
+```powershell
+cd .\Documents\
+git clone https://github.com/actions/runner-images.git
+cd .\runner-images\
+Import-Module .\helpers\GenerateResourcesAndImage.ps1
+
+.\helpers\GenerateResourcesAndImage.ps1; GenerateResourcesAndImage `
+-SubscriptionId 'd7909d2e-2a55-4c2f-b005-d700d0bc3e66' `
+-ResourceGroupName 'rg-infra-image-prod-01' `
+-AzureLocation 'westeurope' `
+-ImageType 'Ubuntu2204' `
+-ManagedImageName ("image-agent-linux-$(Get-Date -Format "yyyy-MM-dd")").ToLower()
+```
