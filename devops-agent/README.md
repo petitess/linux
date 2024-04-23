@@ -11,17 +11,17 @@ cd devopsagent
 sudo tar zxvf ../vsts-agent-linux-x64-3.234.0.tar.gz
 ```
 #### Install
-```bash
+```sql
 ./config.sh --unattended --url https://dev.azure.com/ssgse --auth pat --token 7msuypoeawbuelzpihadh3a --pool vm-labb --agent vmdocker01 --acceptTeeEula --work _work
 sudo ./svc.sh install
 sudo ./svc.sh start
 ```
 #### Only run once
-```bash
+```sql
 ./run.sh
 ```
 #### Remove
-```bash
+```sql
 ./config.sh remove --unattended --url https://dev.azure.com/ssgse --auth pat --token 7msuypoeawbuelz
 ```
 # Summery
