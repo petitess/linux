@@ -1,3 +1,11 @@
+#### Edit files
+```bash
+ssh azadmin@1.1.1.1 
+cd /usr/lib/zabbix/alertscripts
+sudo touch grafana_irm.sh
+sudo nano grafana_irm.sh
+sudo cat grafana_irm.sh
+```
 #### HTTP request
 ```
 curl localhost -usebasicparsing
