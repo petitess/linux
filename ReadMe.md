@@ -25,4 +25,8 @@ fastboot flash system system.img
 fastboot reboot
 
 ```
-https://www.android-x86.org
+#### Type '<!DOCTYPE' is not known on line 1 in source list /etc/apt/sources.list.d/microsoft-prod.list
+```
+sudo rm -r /etc/apt/sources.list.d/microsoft-prod.list
+ls /etc/apt/sources.list.d
+```
