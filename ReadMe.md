@@ -29,4 +29,5 @@ fastboot reboot
 ```
 sudo rm -r /etc/apt/sources.list.d/microsoft-prod.list
 ls /etc/apt/sources.list.d
+sudo apt-get -q update
 ```
